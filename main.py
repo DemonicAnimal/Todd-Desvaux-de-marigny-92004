@@ -24,25 +24,26 @@ print(" \n c) The Lord of the Rings: The Two Towers")
 time.sleep(0.5)
 print(" \n d) The Lord of the Rings: The Great War of the Ring ")
 
+time.sleep(1.0)
 while bool_choice is True:
 
-    str_userChoice == input(" what leter will you pick a,b,c,d, ")
+    str_userChoice == input(" \n what leter will you pick a,b,c,d,\n ")
 
     if str_userChoice == 'a':  
-        print('Correct') 
+        print(' Correct ') 
         bool_choice = False 
     
     elif str_userChoice == 'b':
-        print('Incorrect') 
+        print(' Incorrect ') 
         bool_choice = False 
     
     elif str_userChoice == 'c':
-        print('Incorrect') 
+        print(' Incorrect ') 
         bool_choice = False 
     
     elif str_userChoice == 'd':
-        print('Incorrect') 
+        print(' Incorrect ') 
         bool_choice = False 
     
     else:
-        print('Invalid') 
+        print(' Invalid ')
