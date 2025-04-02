@@ -27,7 +27,7 @@ print(" \n d) The Lord of the Rings: The Great War of the Ring ")
 time.sleep(1.0)
 while bool_choice is True:
 
-    str_userChoice == input(" \n what leter will you pick a,b,c,d,\n ")
+    str_userChoice = input(" \n what leter will you pick a,b,c,d,\n ")
 
     if str_userChoice == 'a':  
         print(' Correct ') 
