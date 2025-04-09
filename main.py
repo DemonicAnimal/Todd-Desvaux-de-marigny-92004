@@ -133,3 +133,46 @@ while bool_choice is True:
     
     else:
         print(' Invalid ')
+        
+pass
+
+time.sleep(0.5)
+print(" \n Question 4! ")
+time.sleep(0.5)
+print(" What is gollums iconic line? ")
+
+time.sleep(2.0)
+print(" \n a) my pretty ")
+
+time.sleep(0.5)
+print(" \n b) Get away! ")
+
+time.sleep(0.5)
+print(" \n c) My precious ")
+
+time.sleep(0.5)
+print(" \n d) MINE! ")
+
+while bool_choice is False:
+
+    time.sleep(1.0)
+    str_userChoice = input(" \n what leter will you pick a,b,c,d,\n ")
+
+    if str_userChoice == 'a':  
+        print(' Incorrect ') 
+        bool_choice = True 
+    
+    elif str_userChoice == 'b':
+        print(' Incorrect ') 
+        bool_choice = True 
+    
+    elif str_userChoice == 'c':
+        print(' Correct ') 
+        bool_choice = True 
+    
+    elif str_userChoice == 'd':
+        print(' Incorrect ') 
+        bool_choice = True 
+    
+    else:
+        print(' Invalid ')
