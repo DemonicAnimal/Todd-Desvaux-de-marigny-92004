@@ -176,3 +176,91 @@ while bool_choice is False:
     
     else:
         print(' Invalid ')
+        
+pass
+
+time.sleep(0.5)
+print(" \n Question 5! ")
+time.sleep(0.5)
+print(" What is the latest lord of the rings movie? ")
+
+time.sleep(2.0)
+print(" \n a) Lord of the Rings: The Hunt for Gollum ")
+
+time.sleep(0.5)
+print(" \n b)  The Lord of the Rings: The War of the Rohirrim ")
+
+time.sleep(0.5)
+print(" \n c) The Lord of the Rings: The Return of the king ")
+
+time.sleep(0.5)
+print(" \n d) The Lord of the Rings: The Two Towers ")
+
+while bool_choice is True:
+
+    time.sleep(1.0)
+    str_userChoice = input(" \n what leter will you pick a,b,c,d,\n ")
+
+    if str_userChoice == 'a':  
+        print(' Incorrect ') 
+        bool_choice = False 
+    
+    elif str_userChoice == 'b':
+        print(' Correct ') 
+        bool_choice = False 
+    
+    elif str_userChoice == 'c':
+        print(' Incorrect ') 
+        bool_choice = False 
+    
+    elif str_userChoice == 'd':
+        print(' Incorrect ') 
+        bool_choice = False 
+    
+    else:
+        print(' Invalid ')
+        
+pass
+
+time.sleep(0.5)
+print(" \n Question 6! ")
+time.sleep(0.5)
+print(" What is considered the most popular character in lord of the rings? ")
+
+time.sleep(2.0)
+print(" \n a) Gollum ")
+
+time.sleep(0.5)
+print(" \n b)  Legolas ")
+
+time.sleep(0.5)
+print(" \n c) arwen ")
+
+time.sleep(0.5)
+print(" \n d) Gandalf ")
+
+while bool_choice is False:
+
+    time.sleep(1.0)
+    str_userChoice = input(" \n what leter will you pick a,b,c,d,\n ")
+
+    if str_userChoice == 'a':  
+        print(' Incorrect ') 
+        bool_choice = True 
+    
+    elif str_userChoice == 'b':
+        print(' Incorrect ') 
+        bool_choice = True 
+    
+    elif str_userChoice == 'c':
+        print(' Incorrect ') 
+        bool_choice = True 
+    
+    elif str_userChoice == 'd':
+        print(' Correct ') 
+        bool_choice = True 
+    
+    else:
+        print(' Invalid ')
+        
+pass
