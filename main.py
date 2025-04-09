@@ -90,3 +90,46 @@ while bool_choice is False:
     
     else:
         print(' Invalid ')
+        
+pass
+
+time.sleep(0.5)
+print(" \n Question 3! ")
+time.sleep(0.5)
+print(" What is gandalfs iconic line? ")
+
+time.sleep(2.0)
+print(" \n a) You shall fall beneath my blade! ")
+
+time.sleep(0.5)
+print(" \n b) Fall before my might! ")
+
+time.sleep(0.5)
+print(" \n c) You will not take one more step! ")
+
+time.sleep(0.5)
+print(" \n d) You shall not pass! ")
+
+while bool_choice is True:
+
+    time.sleep(1.0)
+    str_userChoice = input(" \n what leter will you pick a,b,c,d,\n ")
+
+    if str_userChoice == 'a':  
+        print(' Incorrect ') 
+        bool_choice = False 
+    
+    elif str_userChoice == 'b':
+        print(' Incorrect ') 
+        bool_choice = False 
+    
+    elif str_userChoice == 'c':
+        print(' Incorrect ') 
+        bool_choice = False 
+    
+    elif str_userChoice == 'd':
+        print(' Correct ') 
+        bool_choice = False 
+    
+    else:
+        print(' Invalid ')
